@@ -1,0 +1,13 @@
+Tool	Version	Use
+nf-core/sarek	3.4.0	WES workflow
+Nextflow	23.10.1	Workflow manager
+BWA	0.7.17-r1188	Read alignment
+FastQC	0.12.1	FASTQ quality control
+GATK	4.4.0.0	Preprocessing and germline variant calling
+GATK VariantFiltration	4.6.2.0	Variant hard filtering
+SAMtools	1.17	Alignment processing and statistics
+BCFtools (Sarek)	1.17	VCF statistics within the workflow
+BCFtools (post-processing)	1.24	VCF normalization, restriction and concordance analyses
+mosdepth	0.3.3	Target coverage analysis
+VCFtools	0.1.16	Variant statistics
+R	4.6.0	Data analysis, tables and figures
