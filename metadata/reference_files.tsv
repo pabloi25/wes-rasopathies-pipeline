@@ -1,0 +1,4 @@
+Resource	Name_or_file	Genome_build	Purpose	Included_in_repository
+Reference genome	Homo_sapiens_assembly38.fasta	GRCh38	Read alignment, preprocessing, variant calling and normalization	No
+Target regions	Agilent SureSelect All Exon V6 - S07604514_Regions.bed	GRCh38	WES target definition, coverage assessment and VCF restriction	No
+Liftover chain	b37ToHg38.over.chain	b37/GRCh37 to GRCh38	Harmonization of external VCF files	No
